@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Router>
-        <div>
+        <div id="root">
           <Navbar />
-          <div className="pt-20">
+          <div className="content">
             <Routes>
               <Route path="/" element={<About />} />
               <Route path="/resume" element={<Resume />} />
