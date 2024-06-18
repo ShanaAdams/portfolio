@@ -50,8 +50,7 @@ function ContactForm() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "flex-start",
-        width: "30%",
-        margin: "0 auto",
+        // margin: "0 auto",
       }}
     >
       <label
