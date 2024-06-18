@@ -22,7 +22,7 @@ const About = () => {
         work on multiple projects simultaneously. Expertise in marketing with
         over 7 years of management experience and over 13 years of exceptional
         sales and customer service experience. Including working with
-        senior-level managers on marketing projects and over 6 years of
+        senior-level managers on marketing campaigns and over 6 years of
         marketing experience. Two years of experience with brand audits
         including digital marketing strategy, content audits, and strategic
         planning. Well known for having superior communication skills, strategic
