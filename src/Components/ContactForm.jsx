@@ -104,7 +104,7 @@ function ContactForm() {
           width: "100%",
         }}
       >
-        Send message!
+        Send Message
       </button>
       {success && <p>{success}</p>}
     </form>
