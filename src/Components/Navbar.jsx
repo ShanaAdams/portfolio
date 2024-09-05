@@ -27,7 +27,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="bg-white dark:bg-gray-900 fixed top-0 w-full z-20 border-b border-gray-200 dark:border-gray-600">
+    <nav className="fixed top-0 w-full z-20 border-b ">
       <div className="w-full p-4 flex justify-between items-center">
         <div className="text-2xl font-semibold text-gray-900 dark:text-white">
           Shana Adams
