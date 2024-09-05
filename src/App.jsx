@@ -7,10 +7,11 @@ import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
+import ContactForm from "./Components/ContactForm";
 
 function App() {
   return (
-    <>
+    <div className="bg-gradient-custom min-h-screen">
       <Router>
         <header id="root">
           <Navbar />
@@ -26,12 +27,23 @@ function App() {
       </Router>
       <main>
         <article>
-          <section></section>
-          <section></section>
+          <section id="hero-section">
+            <h1>Hi...</h1>
+            <h1>I'm Shana Adams</h1>
+          </section>
+          <section id="skills-experience" className="flex-container">
+            <aside id="skills">Skills</aside>
+            <div>
+              <h2>Experience/Projects</h2>
+            </div>
+          </section>
         </article>
       </main>
-      <footer></footer>
-    </>
+      <footer>
+        {/* <Contact /> */}
+        <h2>footer</h2>
+      </footer>
+    </div>
   );
 }
 

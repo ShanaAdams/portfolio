@@ -15,7 +15,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "custom-blue": "#30c5d2",
+        "custom-purple": "#471069",
+      },
+      backgroundImage: {
+        "gradient-custom": "linear-gradient(to top, #30c5d2, #471069)",
+      },
+    },
   },
   plugins: [],
 };
